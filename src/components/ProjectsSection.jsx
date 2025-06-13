@@ -1,11 +1,11 @@
 import React from "react";
-
+import * as Project1 from '../../public/projects/project1' 
 const projects = [
   {
     id: 1,
     title: "Book Management",
     description: "A React Application where we can find different types of genres and wide collection of books",
-    image: "/my-portfolio/public/projects/project1.png",
+    image: Project1,
     tags: ["React","HTML", "SASS", "JavaScript"],
   },
   {
