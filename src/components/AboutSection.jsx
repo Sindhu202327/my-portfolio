@@ -28,7 +28,7 @@ const AboutSection = () => {
                 Get In Touch
               </a>
               <a download
-                href="/resume.pdf"
+                href="/my-portfolio/assets/resume.pdf"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
