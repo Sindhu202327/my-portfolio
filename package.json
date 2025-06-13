@@ -6,7 +6,7 @@
   "homepage": "https://github.com/Sindhu202327/my-portfolio",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "react-scripts build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
