@@ -11,14 +11,14 @@ const projects = [
     id: 2,
     title: "Expense Tracker",
     description: "Application used to track the expenses",
-    image: "/my-portfolio/public/projects/project2.png",
+    image: `${import.meta.env.BASE_URL}projects/project2.png`,
     tags: ["React", "Redux"],
   },
   {
     id: 3,
     title: "Gallery",
     description: "An Application where we can post the photos using CRUD Operations",
-    image: "/my-portfolio/public/projects/project3.png",
+    image:`${import.meta.env.BASE_URL}projects/project3.png`,
     tags: ["React", "Redux"],
   },
 ];
