@@ -14,12 +14,10 @@ export const Home = () => {
     useEffect(() => {
         const hash = location.hash;
         if(hash){
-            const element = document.querySelector(hash);
-            if(element){
                 setTimeout(() => {
-                element.scrollIntoView({behavior: 'smooth'});
-                },0)
-            }
+                const element = document.querySelector(hash);
+                if(element) element.scrollIntoView({behavior: 'smooth'});
+                },100)
         }
     },[location]);
     return <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
