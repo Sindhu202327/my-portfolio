@@ -5,7 +5,7 @@ const projects = [
     id: 1,
     title: "Book Management",
     description: "A React Application where we can find different types of genres and wide collection of books",
-    image: "public/projects/project1.png",
+    image: `${import.meta.env.BASE_URL}projects/project1.png`,
     tags: ["React","HTML", "SASS", "JavaScript"],
   },
   {
