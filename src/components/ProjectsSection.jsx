@@ -1,5 +1,4 @@
 import React from "react";
-import * as Project1 from '../../public/projects/project1' 
 const projects = [
   {
     id: 1,
